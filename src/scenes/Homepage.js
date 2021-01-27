@@ -2,6 +2,7 @@ import Header from "parts/Header";
 import Section from "elements/Section";
 import HeroImage from "assets/images/hero-image.png";
 import Fade from "react-reveal/Fade";
+import Clients from "parts/Clients";
 
 function Homepage() {
   return (
@@ -39,6 +40,7 @@ function Homepage() {
             </div>
           </div>
         </Section>
+        <Clients />
       </main>
     </div>
   );
