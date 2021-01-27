@@ -1,6 +1,6 @@
 import Logo from "assets/images/logo.svg";
 import { Link } from "react-router-dom";
-import Button from 'elements/Button';
+import Button from "elements/Button";
 
 function Header() {
   return (
@@ -38,7 +38,9 @@ function Header() {
               </ul>
               <ul className="list-reset header-nav-right">
                 <li>
-                    <Button isPrimary isWideMobile isSmall>Sign Up</Button>
+                  <Button isPrimary isWideMobile isSmall>
+                    Sign Up
+                  </Button>
                 </li>
               </ul>
             </div>
