@@ -1,20 +1,16 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 function Section(props) {
-    const className = ["section"];
-    className.push(props.className);
-    if(props.isCenterContent) className.push("center-content");
+  const className = ["section"];
+  className.push(props.className);
+  if (props.isCenterContent) className.push("center-content");
 
-    return (
-        <section className={className.join(" ")}>
-            {props.children}
-        </section>
-    );
+  return <section className={className.join(" ")}>{props.children}</section>;
 }
 
 Section.propTypes = {
-    isCenterContent: PropTypes.bool,
-    className: PropTypes.string
-}
+  isCenterContent: PropTypes.bool,
+  className: PropTypes.string,
+};
 
 export default Section;
