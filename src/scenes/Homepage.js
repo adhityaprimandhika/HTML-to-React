@@ -1,15 +1,18 @@
-import Header from "parts/Header";
-import Section from "elements/Section";
-import HeroImage from "assets/images/hero-image.png";
 import Fade from "react-reveal/Fade";
-import Clients from "parts/Clients";
-import Feature from "parts/Feature";
-import FeatureIcon01 from "assets/images/feature-tile-icon-01.svg";
-import FeatureIcon02 from "assets/images/feature-tile-icon-02.svg";
-import FeatureIcon03 from "assets/images/feature-tile-icon-03.svg";
+
+import Section from "elements/Section";
 import Card from "elements/Card";
 import Lists from "elements/Lists";
 import Button from "elements/Button";
+import Header from "parts/Header";
+import Clients from "parts/Clients";
+import Feature from "parts/Feature";
+import Footer from "parts/Footer";
+
+import HeroImage from "assets/images/hero-image.png";
+import FeatureIcon01 from "assets/images/feature-tile-icon-01.svg";
+import FeatureIcon02 from "assets/images/feature-tile-icon-02.svg";
+import FeatureIcon03 from "assets/images/feature-tile-icon-03.svg";
 
 function Homepage() {
   const features = [
@@ -185,6 +188,7 @@ function Homepage() {
           </div>
         </Section>
       </main>
+      <Footer />
     </div>
   );
 }
